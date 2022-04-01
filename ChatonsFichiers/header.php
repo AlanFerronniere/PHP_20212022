@@ -29,7 +29,7 @@
                     if($dossier!="." && $dossier!=".."){
                         ?>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"><?php echo $dossier ?></a>
+                            <a class="nav-link active" aria-current="page" href="dossier.php?d=<?php echo $dossier ?>"><?php echo $dossier ?></a>
                         </li>
                         <?php
                     }
