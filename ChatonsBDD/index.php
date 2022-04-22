@@ -36,6 +36,7 @@ include "header.php";
                     <td><?php echo htmlentities($l["description"]) ?></td>
                     <td>
                         <a href="modifierCategorie.php?id=<?php echo $l["id"] ?>" class="btn btn-success">modifier</a>
+                        <a href="supprimerCategorie.php?id=<?php echo $l["id"] ?>" class="btn btn-danger">supprimer</a>
                     </td>
                 </tr>
                 <?php
